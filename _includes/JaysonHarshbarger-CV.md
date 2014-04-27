@@ -20,7 +20,9 @@ Areas of experience include scientific computing, visualization, and simulations
 - Beginning level Japanese.
 
 # PROFESSIONAL EXPERIENCE
+
 ## RIKEN Center for Life Science Technologies, Division of Genomic Technologies, 2011 - Present
+
 ### Technical Scientist / Web Visualization Development
 - Designed and developed various web sites and web applications in support of a large international consortium research project including the consortium website [](http://fantom.gsc.riken.jp).
 - Developed web applications for retrieval and visualization of large genomic datasets using node.js, d3js and angularjs [](http://fantom.gsc.riken.jp/5/tet/).
@@ -29,6 +31,7 @@ Areas of experience include scientific computing, visualization, and simulations
 - Contributed to and co-authored several publications.
 
 ## Boeing S&IS / El Segundo, 2000 – 2011
+
 ### Senior Scientist / Engineering
 - Developed in-depth understanding of space environment effects and knowledge across broad scientific topics such as molecular gas dynamic, diffusion, sublimation, thin film optics, radiation, and plasma physics.
 - Responsible for modeling of contamination on satellite optical systems due to molecular and particulate contamination, plume impingement of electric and liquid propulsion systems, and evaluation of gas flow within complex vessel for susceptibility to multipaction.
@@ -40,12 +43,14 @@ Areas of experience include scientific computing, visualization, and simulations
 - Heavy involvement in anomaly investigation teams under critical time constraints.
 
 ## UCLA, Center for High Frequency Electronics, 1996 – 2000
+
 ### Assistant Engineer
 - Responsible for general laboratory duties, maintenance of laboratory hardware, and assisting graduate level researchers, school faculty, and industry researchers in various research projects.
 - Developed various software tools for laboratory management.
 - Developed an in-depth understanding of high frequency electronics including network analysis of microwave devices and circuits up to 105 GHz.
 
 ## Ventura College Chemistry Department, 1993 – 1996
+
 ### Laboratory Assistant
 - Responsible for general laboratory duties, maintenance of laboratory equipment, and assisting faculty in conduction of in-class experiments.
 - Developed various software tools for laboratory management.
@@ -55,7 +60,9 @@ Areas of experience include scientific computing, visualization, and simulations
 - Jessica Severin, Marina Lizio, **Jayson Harshbarger**, Hideya Kawaji, Carsten O Daub, Yoshihide Hayashizaki, The FANTOM Consortium, Nicolas Bertin, Alistair R R Forrest (2014). Interactive visualization and analysis of large-scale NGS data-sets using ZENBU. *Nature Biotechnology* **32**, 217–219
 
 # EDUCATION
+
 ## University of California, Los Angeles, 1996 - 1999
+
 ### Bachelors of Science in Physics
 Graduated with a 3.40 GPA.  Attended classes while working as an Assistant Engineer in the Electrical Engineering Department.  In addition to core requirements attended courses on microbiology, biotechnology, and biophysics.
 
