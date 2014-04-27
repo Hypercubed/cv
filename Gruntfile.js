@@ -4,7 +4,12 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
     meta: {
-      name: 'JaysonHarshbarger-CV'
+      name: 'JaysonHarshbarger-CV',
+      title: 'Jayson M. Harshbarger - Curriculum Vitae',
+      zipurl: 'https://github.com/Hypercubed/cv/zipball/cv',
+      pdfurl: 'https://github.com/Hypercubed/cv/blob/cv/JaysonHarshbarger-CV.pdf?raw=true',
+      giturl: 'https://github.com/Hypercubed/cv',
+      gatracker: 'UA-102465-14'
     },
 
     // Task configuration.
@@ -22,9 +27,9 @@ module.exports = function(grunt) {
       },
       gh: {
         expand: true,
-        cwd: 'cv/',
-        src: ['*'],
-        dest: 'gh-pages/_includes/'
+        cwd: 'gh-pages/',
+        src: ['images/*','stylesheets/*'],
+        dest: '.gh-pages'
       }
     },
 
@@ -38,20 +43,37 @@ module.exports = function(grunt) {
       },
       gh: {
         options: {
-          base: 'gh-pages',
+          base: '.gh-pages',
           branch: 'gh-pages'
         },
         src: '**/*'
+      }
+    },
+
+    assemble: {
+      options: {
+        meta: '<%= meta %>',
+        flatten: true,
+        layoutdir: 'gh-pages/_layouts'
+      },
+      gh: {
+        options: {
+          layout: 'default.hbs',
+        },
+        files: {
+          '.gh-pages/': ['gh-pages/*.html']
+        }
       }
     }
 
   });
 
   require('load-grunt-tasks')(grunt);
+  grunt.loadNpmTasks('assemble' );
 
   // Default task.
   grunt.registerTask('build:cv', ['markdownpdf','copy:cv']);
-  grunt.registerTask('build:gh', ['build:cv','copy:gh']);
+  grunt.registerTask('build:gh', ['copy:gh','assemble:gh']);
   grunt.registerTask('build', ['build:gh']);
 
   grunt.registerTask('deploy:cv', ['build:cv','gh-pages:cv']);

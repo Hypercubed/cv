@@ -1,4 +1,5 @@
 .grunt
+.gh-pages
 /cv
 /gh-pages/_includes
 /node_modules
