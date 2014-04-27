@@ -51,8 +51,8 @@ module.exports = function(grunt) {
 
   // Default task.
   grunt.registerTask('build:cv', ['markdownpdf','copy:cv']);
-  grunt.registerTask('build:gh', ['copy:gh']);
-  grunt.registerTask('build', ['build:cv','build:gh']);
+  grunt.registerTask('build:gh', ['build:cv','copy:gh']);
+  grunt.registerTask('build', ['build:gh']);
 
   grunt.registerTask('deploy:cv', ['build:cv','gh-pages:cv']);
   grunt.registerTask('deploy:gh', ['build:gh','gh-pages:gh']);
