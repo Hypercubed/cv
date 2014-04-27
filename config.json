@@ -1,8 +1,10 @@
 {
-  "name": "JaysonHarshbarger-CV",
+  "basename": "JaysonHarshbarger-CV",
+  "base": "cv/",
+  "src": "<%= config.base %><%= config.basename %>.md",
   "title": "Jayson M. Harshbarger - Curriculum Vitae",
   "giturl": "https://github.com/Hypercubed/cv",  
-  "zipurl": "https://github.com/Hypercubed/cv/zipball/cv",
-  "pdfurl": "https://github.com/Hypercubed/cv/blob/cv/JaysonHarshbarger-CV.pdf?raw=true",
+  "zipurl": "<%= giturl %>/zipball/cv",
+  "pdfurl": "<%= giturl %>/blob/cv/JaysonHarshbarger-CV.pdf?raw=true",
   "gatracker": "UA-102465-14"
 }

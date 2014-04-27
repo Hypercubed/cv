@@ -3,25 +3,31 @@ module.exports = function(grunt) {
 
   // Project configuration.
   grunt.initConfig({
-    meta: grunt.file.readJSON('config.json' ),
+    config: grunt.file.readJSON('config.json' ),
 
     // Task configuration.
     markdownpdf: {
       files: {
-        src: 'cv/<%= meta.name %>.md',
+        src: '<%= config.src %>',
         dest: 'cv'
       }
     },
 
     copy: {
       cv: {
-        src: 'cv/<%= meta.name %>.md',
-        dest: 'cv/README.md'
+        src: '<%= config.src %>',
+        dest: '<%= config.base %>README.md'
       },
       gh: {
         expand: true,
         cwd: 'gh-pages/',
         src: ['.nojekyll', 'images/*','stylesheets/*'],
+        dest: '.gh-pages'
+      },
+      gh2: {
+        expand: true,
+        cwd: '<%= config.base %>',
+        src: '*',
         dest: '.gh-pages'
       }
     },
@@ -29,7 +35,7 @@ module.exports = function(grunt) {
     'gh-pages': {
       cv: {
         options: {
-          base: 'cv',
+          base: '<%= config.base %>',
           branch: 'cv'
         },
         src: '**/*'
@@ -46,13 +52,13 @@ module.exports = function(grunt) {
 
     assemble: {
       options: {
-        meta: '<%= meta %>',
+        config: '<%= config %>',
         flatten: true,
         layoutdir: 'gh-pages/_layouts'
       },
       gh: {
         options: {
-          layout: 'default.hbs',
+          layout: 'default.hbs'
         },
         files: {
           '.gh-pages/': ['gh-pages/*.html']
@@ -69,7 +75,7 @@ module.exports = function(grunt) {
 
   // Default task.
   grunt.registerTask('build:cv', ['markdownpdf','copy:cv']);
-  grunt.registerTask('build:gh', ['clean', 'copy:gh','assemble:gh']);
+  grunt.registerTask('build:gh', ['clean', 'copy:gh','build:cv','copy:gh2','assemble:gh']);
   grunt.registerTask('build', ['build:gh']);
 
   grunt.registerTask('deploy:cv', ['build:cv','gh-pages:cv']);
