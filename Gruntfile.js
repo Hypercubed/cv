@@ -3,14 +3,7 @@ module.exports = function(grunt) {
 
   // Project configuration.
   grunt.initConfig({
-    meta: {
-      name: 'JaysonHarshbarger-CV',
-      title: 'Jayson M. Harshbarger - Curriculum Vitae',
-      zipurl: 'https://github.com/Hypercubed/cv/zipball/cv',
-      pdfurl: 'https://github.com/Hypercubed/cv/blob/cv/JaysonHarshbarger-CV.pdf?raw=true',
-      giturl: 'https://github.com/Hypercubed/cv',
-      gatracker: 'UA-102465-14'
-    },
+    meta: grunt.file.readJSON('config.json' ),
 
     // Task configuration.
     markdownpdf: {
@@ -64,7 +57,9 @@ module.exports = function(grunt) {
           '.gh-pages/': ['gh-pages/*.html']
         }
       }
-    }
+    },
+
+    clean: [".gh-pages/"]
 
   });
 

@@ -3,7 +3,7 @@ This is a simple grunt file that automates these tasks:
 
        build:cv  Creates a pdf and readme.md from the source markdown file.
       deploy:cv  Deploys cv files to github into the cv branch.
-       build:gh  Copies appropriate files to the gh-pages directory.
+       build:gh  Builds html files for gh-pages.
       deploy:gh  Deploys gh-pages files to github.      
          deploy  All of the above.
 
@@ -19,7 +19,7 @@ git remote add -t master -f origin https://github.com/Hypercubed/cv.git
 git checkout master
 ```
 
-Place your CV in a `./cv` directory.   Update `Gruntfile.js` as needed.
+Place your CV in a `./cv` directory.   Update `config.json` as needed.
 
 ## License
 Master branch is MIT
