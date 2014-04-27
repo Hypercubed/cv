@@ -4,7 +4,7 @@
   "src": "<%= config.base %><%= config.basename %>.md",
   "title": "Jayson M. Harshbarger - Curriculum Vitae",
   "giturl": "https://github.com/Hypercubed/cv",  
-  "zipurl": "<%= giturl %>/zipball/cv",
-  "pdfurl": "<%= giturl %>/blob/cv/JaysonHarshbarger-CV.pdf?raw=true",
+  "zipurl": "<%= config.giturl %>/zipball/cv",
+  "pdfurl": "<%= config.giturl %>/blob/<%= config.base %><%= config.basename %>.pdf?raw=true",
   "gatracker": "UA-102465-14"
 }
