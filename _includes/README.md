@@ -65,4 +65,3 @@ Attended class on computational methods in rarefied gas dynamics.  Studied Direc
 
 ## El Camino Community College, 2011
 Attended Japanese language classes
-
