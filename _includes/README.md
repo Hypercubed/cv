@@ -1,5 +1,5 @@
-Jayson M. Harshbarger - CV
----
+Jayson M. Harshbarger
+===
 
 - **Citizenship:** United States of America
 - **Japanese Visa Status:** Current Researcher Visa
