@@ -3,17 +3,21 @@ module.exports = function(grunt) {
 
   // Project configuration.
   grunt.initConfig({
+    meta: {
+      name: 'JaysonHarshbarger-CV'
+    },
+
     // Task configuration.
     markdownpdf: {
       files: {
-        src: 'cv/JaysonHarshbarger-CV.md',
+        src: 'cv/<%= meta.name %>.md',
         dest: 'cv'
       }
     },
 
     copy: {
       cv: {
-        src: 'cv/JaysonHarshbarger-CV.md',
+        src: 'cv/<%= meta.name %>.md',
         dest: 'cv/README.md'
       },
       gh: {
@@ -53,5 +57,7 @@ module.exports = function(grunt) {
   grunt.registerTask('deploy:cv', ['build:cv','gh-pages:cv']);
   grunt.registerTask('deploy:gh', ['build:gh','gh-pages:gh']);
   grunt.registerTask('deploy', ['build','gh-pages']);
+
+  grunt.registerTask('default', ['build']);  
 
 };
