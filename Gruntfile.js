@@ -21,7 +21,7 @@ module.exports = function(grunt) {
       gh: {
         expand: true,
         cwd: 'gh-pages/',
-        src: ['images/*','stylesheets/*'],
+        src: ['.nojekyll', 'images/*','stylesheets/*'],
         dest: '.gh-pages'
       }
     },
@@ -37,7 +37,8 @@ module.exports = function(grunt) {
       gh: {
         options: {
           base: '.gh-pages',
-          branch: 'gh-pages'
+          branch: 'gh-pages',
+          dot: true
         },
         src: '**/*'
       }
@@ -68,7 +69,7 @@ module.exports = function(grunt) {
 
   // Default task.
   grunt.registerTask('build:cv', ['markdownpdf','copy:cv']);
-  grunt.registerTask('build:gh', ['copy:gh','assemble:gh']);
+  grunt.registerTask('build:gh', ['clean', 'copy:gh','assemble:gh']);
   grunt.registerTask('build', ['build:gh']);
 
   grunt.registerTask('deploy:cv', ['build:cv','gh-pages:cv']);

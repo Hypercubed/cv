@@ -2,4 +2,5 @@
 
 _\( managed using [todo-md](https://github.com/Hypercubed/todo-md) \)_
 
-- [ ] Use assemble instead of jekyll
+- [x] Use assemble instead of jekyll
+- [ ] Improve gh-pages design
