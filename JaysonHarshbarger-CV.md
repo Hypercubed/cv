@@ -6,7 +6,7 @@ Jayson M. Harshbarger
 - **Current Address:** Tokyo, Japan
 
 # PROFILE
-Areas of experience include scientific computing, visualization, and simulations.  Looking to expand my knowledge in the fields of scientific computing and visualization.  I am passionate about creating and using software and web systems as a tool to enable analysis, management, and efficient sharing of scientific data across broad scientific fields.  I am passionate about using and developing open-source software.
+Areas of experience include scientific computing, visualization, and simulations.  Looking to expand my knowledge in the fields of scientific computing and visualization.  I am interested in systems that enable analysis, archiving, and dissemination of scientific data across broad scientific fields. Currently focused on developing visualization systems using node.js, Angular.js, and D3js. I'm passionate about programming, programming languages, and open-source.
 
 # RELEVANT SKILLS
 - Advanced physics and mathematics skills.
@@ -15,7 +15,7 @@ Areas of experience include scientific computing, visualization, and simulations
 - Many years of experience with web development.  Knowledgeable in server side programming using PHP, node.js, and MySQL.  Advanced understanding of HTML, CSS, and JavaScript.  Experienced with angularjs, jQuery, and d3js.
 - Advanced experience with, and strong advocate of, version control systems such as git and github.  Github user [Hypercubed](https://github.com/Hypercubed) with over 40 public repositories.  Passionate about open source software.
 - Advanced skills using CAD tools including AutoCAD, ProE, CATIA, and Patran.
-- Experienced in genomic information analysis on large datasets using R, perl, and command bioinformatics command line tools such as bamtool and bedtools.
+- Experienced in genomic information analysis on large datasets using R, perl, and command bioinformatics command line tools such as BamTools and BEDtools.
 - Proven ability to deliver under critical time constraints.
 - Beginning level Japanese.
 
@@ -26,7 +26,7 @@ Areas of experience include scientific computing, visualization, and simulations
 ### Technical Scientist / Web Visualization Development
 - Designed and developed various web sites and web applications in support of a large international consortium research project including the consortium website [](http://fantom.gsc.riken.jp).
 - Developed web applications for retrieval and visualization of large genomic datasets using node.js, d3js and angularjs [](http://fantom.gsc.riken.jp/5/tet/).
-- Performed bioinformatic analysis of deepCAGE sequencing on RNA isolated from human and mouse samples.
+- Performed bioinformatic analysis of CAGE sequencing on RNA isolated from human and mouse samples.
 - Contributed to the code base of a powerful web based scientific collaborations, data integration, and omics visualization tool.
 - Contributed to and co-authored several publications.
 
