@@ -6,16 +6,16 @@ Jayson M. Harshbarger
 - **Current Address:** Tokyo, Japan
 
 # PROFILE
-Areas of experience include scientific computing, visualization, and simulations.  Looking to expand my knowledge in the fields of scientific computing and visualization.  I am interested in systems that enable analysis, archiving, and dissemination of scientific data across broad scientific fields. Currently focused on developing visualization systems using node.js, Angular.js, and D3js. I'm passionate about programming, programming languages, and open-source.
+Areas of experience include scientific computing, visualization, and simulations.  Looking to expand my knowledge in the fields of scientific computing and visualization.  I am passionate about creating and using software and web systems as a tool to enable analysis, management, and efficient sharing of scientific data across broad scientific fields.  I am passionate about using and developing open-source software.
 
 # RELEVANT SKILLS
 - Advanced physics and mathematics skills.
 - Advanced computer skills in both the PC and Unix/Linux.
 - Many years of computer programming experience across multiple languages including: C++, FORTRAN, Visual Basic, and Java.
 - Many years of experience with web development.  Knowledgeable in server side programming using PHP, node.js, and MySQL.  Advanced understanding of HTML, CSS, and JavaScript.  Experienced with angularjs, jQuery, and d3js.
-- Advanced experience with, and strong advocate of, version control systems such as git and github.  Github user [Hypercubed](https://github.com/Hypercubed) with over 40 public repositories.  Passionate about open source software.
+- Advanced experience with, and strong advocate of, version control systems such as git and github.  Github user [Hypercubed](https://github.com/Hypercubed) with over 30 public repositories.  Contributor to various open source projects including AngularJS, DocPad, and Semantic MediaWiki.  Passionate about open source software.
 - Advanced skills using CAD tools including AutoCAD, ProE, CATIA, and Patran.
-- Experienced in genomic information analysis on large datasets using R, perl, and command bioinformatics command line tools such as BamTools and BEDtools.
+- Experienced in genomic analysis on large datasets using R, perl, and bioinformatics command line tools such as bamtool and bedtools.
 - Proven ability to deliver under critical time constraints.
 - Beginning level Japanese.
 
@@ -25,14 +25,14 @@ Areas of experience include scientific computing, visualization, and simulations
 
 ### Technical Scientist / Web Visualization Development
 - Designed and developed various web sites and web applications in support of a large international consortium research project including the consortium website [](http://fantom.gsc.riken.jp).
-- Developed web applications for retrieval and visualization of large genomic datasets using node.js, d3js and angularjs [](http://fantom.gsc.riken.jp/5/tet/).
-- Performed bioinformatic analysis of CAGE sequencing on RNA isolated from human and mouse samples.
+- Developed web applications for retrieval and visualization of large genomic datasets using node.js, d3js and angularjs .
+- Performed bioinformatic analysis of deepCAGE sequencing on RNA isolated from human and mouse samples.
 - Contributed to the code base of a powerful web based scientific collaborations, data integration, and omics visualization tool.
 - Contributed to and co-authored several publications.
 
-## Boeing S&IS / El Segundo, 2000 – 2011
+## Boeing S&IS / El Segundo, 2000 - 2011
 
-### Senior Scientist / Engineering
+### Senior Scientist / Survivability Engineering
 - Developed in-depth understanding of space environment effects and knowledge across broad scientific topics such as molecular gas dynamic, diffusion, sublimation, thin film optics, radiation, and plasma physics.
 - Responsible for modeling of contamination on satellite optical systems due to molecular and particulate contamination, plume impingement of electric and liquid propulsion systems, and evaluation of gas flow within complex vessel for susceptibility to multipaction.
 - Responsible for statistical analysis of spacecraft reliability under the influence of micro-meteoroid bombardment.
@@ -42,7 +42,7 @@ Areas of experience include scientific computing, visualization, and simulations
 - Designed, procured, and analyzed various extensive laboratory experiments in support of empirical model development in the areas of thin film deposition including surface sputtering and ultraviolet deposition within high vacuum systems.
 - Heavy involvement in anomaly investigation teams under critical time constraints.
 
-## UCLA, Center for High Frequency Electronics, 1996 – 2000
+## UCLA, Center for High Frequency Electronics, 1996 - 2000
 
 ### Assistant Engineer
 - Responsible for general laboratory duties, maintenance of laboratory hardware, and assisting graduate level researchers, school faculty, and industry researchers in various research projects.
@@ -58,6 +58,7 @@ Areas of experience include scientific computing, visualization, and simulations
 # PUBLICATIONS
 - The FANTOM Consortium and the RIKEN PMI and CLST (DGT) (2014). A promoter level mammalian expression atlas. *Nature* **507**, 462–470
 - Jessica Severin, Marina Lizio, **Jayson Harshbarger**, Hideya Kawaji, Carsten O Daub, Yoshihide Hayashizaki, The FANTOM Consortium, Nicolas Bertin, Alistair R R Forrest (2014). Interactive visualization and analysis of large-scale NGS data-sets using ZENBU. *Nature Biotechnology* **32**, 217–219
+- Marina Lizio, **Jayson Harshbarger**, et. al., Gateways to the FANTOM5 promoter level mammalian expression atlas. *Genome Biology* (accepted)
 
 # EDUCATION
 
@@ -67,7 +68,7 @@ Areas of experience include scientific computing, visualization, and simulations
 Graduated with a 3.40 GPA.  Attended classes while working as an Assistant Engineer in the Electrical Engineering Department.  In addition to core requirements attended courses on microbiology, biotechnology, and biophysics.
 
 ## University of Southern California, 2002/2006
-Attended individual class on C++ programming.
+Attended individual class on C++ programming and rarefied gas dynamics.
 Attended class on computational methods in rarefied gas dynamics.  Studied Direct Simulation Monte Carlo/Particle-in-Cell codes.  Developed a 2D DSMC code as a term project.
 
 ## El Camino Community College, 2011
