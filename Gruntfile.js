@@ -7,6 +7,9 @@ module.exports = function(grunt) {
 
     // Task configuration.
     markdownpdf: {
+      options: {
+        cssPath: './../../../../../pdf.css'
+      },
       files: {
         src: '<%= config.src %>',
         dest: 'cv'
@@ -82,6 +85,6 @@ module.exports = function(grunt) {
   grunt.registerTask('deploy:gh', ['build:gh','gh-pages:gh']);
   grunt.registerTask('deploy', ['build','gh-pages']);
 
-  grunt.registerTask('default', ['build']);  
+  grunt.registerTask('default', ['build']);
 
 };
