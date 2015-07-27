@@ -2,7 +2,7 @@ Jayson M. Harshbarger
 ===
 
 # PROFILE
-Areas of experience include scientific computing, visualization, and simulations.  Looking to expand my knowledge in the fields of scientific computing and visualization.  I am interested in systems that enable analysis, archiving, and dissemination of scientific data across broad scientific fields. Currently focused on developing visualization systems using node.js, Angular.js, and D3js. I'm passionate about programming, programming languages, and open-source.
+Areas of experience include scientific computing, visualization, and simulations.  Looking to expand my knowledge in the fields of scientific computing and visualization.  I am interested in systems that enable analysis, archiving, and dissemination of scientific data across broad scientific fields.  Currently focused on developing visualization systems using Node.js, AngularJS, and D3.js.  I'm passionate about programming, programming languages, and open-source.
 
 - **Citizenship:** United States of America
 - **Japanese Visa Status:** Current Researcher Visa
@@ -12,10 +12,10 @@ Areas of experience include scientific computing, visualization, and simulations
 - Advanced physics and mathematics skills.
 - Advanced computer skills in both the PC and Unix/Linux.
 - Many years of computer programming experience across multiple languages including: C++, FORTRAN, Visual Basic, and Java.
-- Many years of experience with web development.  Knowledgeable in server side programming using PHP, node.js, and MySQL.  Advanced understanding of HTML, CSS, and JavaScript.  Experienced with angularjs, jQuery, and d3js.
-- Advanced experience with, and strong advocate of, version control systems such as git and github.  Github user [Hypercubed](https://github.com/Hypercubed) with over 40 public repositories.  Contributor to various open source projects including AngularJS, DocPad, and Semantic MediaWiki.  Passionate about open source software.
+- Many years of experience with web development.  Knowledgeable in server side programming using PHP, Node.js, and MySQL.  Advanced understanding of HTML, CSS, and JavaScript.  Advanced experienced with AngularJS and d3.js.
+- Advanced experience with, and strong advocate of, version control systems such as git and github.  Github user [Hypercubed](https://github.com/Hypercubed).  Contributor to various open source projects including AngularJS, DocPad, and Semantic MediaWiki.  Maintainer of various open source projects including [angular-marked](https://github.com/Hypercubed/angular-marked) and [angular-primer](https://github.com/Hypercubed/angular-primer). Passionate about open source software.
 - Advanced skills using CAD tools including AutoCAD, ProE, CATIA, and Patran.
-- Experienced in genomic information analysis on large datasets using R, perl, and command bioinformatics command line tools such as BamTools and BEDtools.
+- Experienced in genomic information analysis on large datasets using R, Perl, and command line bioinformatics tools such as BamTools and BEDtools.
 - Proven ability to deliver under critical time constraints.
 - Beginning level Japanese.
 
@@ -24,9 +24,10 @@ Areas of experience include scientific computing, visualization, and simulations
 ## RIKEN Center for Life Science Technologies, Division of Genomic Technologies, 2011 - Present
 
 ### Technical Scientist / Web Visualization Development
-- Designed and developed various web sites and web applications in support of a large international consortium research project including the consortium website [](http://fantom.gsc.riken.jp).
-- Developed web applications for retrieval and visualization of large genomic datasets using node.js, d3js and angularjs [](http://fantom.gsc.riken.jp/5/tet/).
-- Performed bioinformatic analysis of CAGE sequencing on RNA isolated from human and mouse samples.
+- Designed and developed various web sites and web applications in support of a large international consortium research project including the [consortium website](http://fantom.gsc.riken.jp).
+- Developed web applications for retrieval of large genomic datasets using node.js and AngularJS including the [FANTOM5 Table Extraction Tool](http://fantom.gsc.riken.jp/5/tet/).
+- Developed web applications for visualization of scientific data associated with various publications [a tool for exploring cell-cell ligand-receptor mediated communication networks](https://github.com/Hypercubed/connectome).
+- Performed bioinformatics analysis of CAGE sequencing on RNA isolated from human and mouse samples.
 - Contributed to the code base of a powerful web based scientific collaborations, data integration, and omics visualization tool.
 - Contributed to and co-authored several publications.
 
@@ -37,7 +38,7 @@ Areas of experience include scientific computing, visualization, and simulations
 - Responsible for modeling of contamination on satellite optical systems due to molecular and particulate contamination, plume impingement of electric and liquid propulsion systems, and evaluation of gas flow within complex vessel for susceptibility to multipaction.
 - Responsible for statistical analysis of spacecraft reliability under the influence of micro-meteoroid bombardment.
 - Researched and developed various scientific analysis applications including best in industry simulation tools for modeling of molecular gas dynamics in collision-less environments and semi-empirical simulation of the effects of electric and liquid thruster plume impingement.
-- Developed expert knowledge in various engineering tools such as Thermal Desktop (CAD Based Thermal Modeler), COMSOL (Multiphysics Modeler), and FilmStar (thin film optics software). Tested and implemented new tools such as thermal modeling software, multiphysics tool for diffusion modeling, and thin film optics software for modeling of contamination effects.
+- Developed expert knowledge in various engineering tools such as Thermal Desktop (AutoCAD Based Thermal Modeler), COMSOL (Multiphysics Modeler), and FilmStar (thin film optics software). Tested and implemented new tools such as thermal modeling software, multiphysics tool for diffusion modeling, and thin film optics software for modeling of contamination effects on optically sensitive instruments.
 - Responsible for improvement of contamination engineering standard processes including leading a multi-year project to improve enterprise wide process for control of outgassing materials.
 - Designed, procured, and analyzed various extensive laboratory experiments in support of empirical model development in the areas of thin film deposition including surface sputtering and ultraviolet deposition within high vacuum systems.
 - Heavy involvement in anomaly investigation teams under critical time constraints.
@@ -52,13 +53,15 @@ Areas of experience include scientific computing, visualization, and simulations
 ## Ventura College Chemistry Department, 1993 – 1996
 
 ### Laboratory Assistant
-- Responsible for general laboratory duties, maintenance of laboratory equipment, and assisting faculty in conduction of in-class experiments.
+- Responsible for general laboratory duties, maintenance of laboratory equipment, and assisting faculty in conducting of in-class experiments.
 - Developed various software tools for laboratory management.
 
 # PUBLICATIONS
-- Jessica Severin, Marina Lizio, **Jayson Harshbarger**, Hideya Kawaji, Carsten O Daub, Yoshihide Hayashizaki, The FANTOM Consortium, Nicolas Bertin, Alistair R R Forrest (2014). Interactive visualization and analysis of large-scale NGS data-sets using ZENBU. *Nature Biotechnology* **32**, 217–219
-- The FANTOM Consortium and the RIKEN PMI and CLST (DGT) (2014). A promoter level mammalian expression atlas. *Nature* **507**, 462–470
+- Jordan A. Ramilowski,	Tatyana Goldberg,	**Jayson Harshbarger**, et. al., A draft network of ligand–receptor-mediated multicellular signalling in human. *Nature Communications* **6**, Article number: 7866
 - Marina Lizio, **Jayson Harshbarger**, et. al., Gateways to the FANTOM5 promoter level mammalian expression atlas. *Genome Biology* 2015, **16**:22
+- Jessica Severin, Marina Lizio, **Jayson Harshbarger**, Hideya Kawaji, Carsten O Daub, Yoshihide Hayashizaki, The FANTOM Consortium, Nicolas Bertin, Alistair R R Forrest (2014). Interactive visualization and analysis of large-scale NGS data-sets using ZENBU. *Nature Biotechnology* **32**, 217–219
+- Arner E, et. al., Transcribed enhancers lead waves of coordinated transcription in transitioning mammalian cells. *Science* 2015 Feb 27;347(6225)
+- The FANTOM Consortium and the RIKEN PMI and CLST (DGT) (2014). A promoter level mammalian expression atlas. *Nature* **507**, 462–470
 
 # EDUCATION
 
